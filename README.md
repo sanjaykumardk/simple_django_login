@@ -60,25 +60,41 @@ This is a simple Django application that provides basic user authentication feat
 
 ```plaintext
 simple-django-login/
+├── db.sqlite3
 ├── manage.py
-├── myapp/
-│   ├── __init__.py
+├── Practicals
 │   ├── admin.py
 │   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-311.pyc
+│   │       └── __init__.cpython-311.pyc
 │   ├── models.py
-│   ├── templates/
-│   │   ├── registration/
-│   │   │   ├── login.html
-│   │   │   └── register.html
-│   │   └── home.html
+│   ├── __pycache__
+│   │   ├── admin.cpython-311.pyc
+│   │   ├── apps.cpython-311.pyc
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── models.cpython-311.pyc
+│   │   ├── urls.cpython-311.pyc
+│   │   └── views.cpython-311.pyc
 │   ├── tests.py
 │   ├── urls.py
-│   ├── views.py
-│   └── forms.py
-├── simple_django_login/
-│   ├── __init__.py
+│   └── views.py
+├── SECE
 │   ├── asgi.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── settings.cpython-311.pyc
+│   │   ├── urls.cpython-311.pyc
+│   │   └── wsgi.cpython-311.pyc
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
-└── requirements.txt
+└── templates
+    ├── index.html
+    ├── login.html
+    └── signup.html
