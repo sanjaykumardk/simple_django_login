@@ -1,6 +1,17 @@
 # Simple Django Login Application
 
-This is a simple Django application that provides basic user authentication features, including user registration, login, and logout.
+This is a simple Django application that provides basic user authentication features, including user registration, login, and index.
+
+## Screenshots
+
+### Signup Page
+
+![Sign Up](signup.png)
+
+### Login Page
+
+![Login](login.png)
+
 
 ## Features
 
