@@ -103,9 +103,8 @@ Configuration
 SECE/settings.py
 
 Ensure you have the following in your settings:
-
 python
-
+```
 INSTALLED_APPS = [
     ...
     'django.contrib.admin',
@@ -148,12 +147,13 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+```
 
 URL Configuration
 SECE/urls.py
 
 python
-
+```
 from django.contrib import admin
 from django.urls import path, include
 
@@ -161,11 +161,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Practicals.urls')),  # Include app URLs
 ]
-
+```
 Practicals/urls.py
 
 python
-
+```
 from django.urls import path
 from . import views
 
@@ -176,31 +176,31 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout'),
     path('home/', views.home_view, name='home'),
 ]
-
+```
 Templates
-
+```
     templates/index.html - Home page template.
     templates/login.html - Login page template.
     templates/signup.html - Registration page template.
-
+```
 Usage
 User Registration
-
+```
     Navigate to http://127.0.0.1:8000/register/
     Fill in the registration form and submit.
-
+```
 User Login
-
+```
     Navigate to http://127.0.0.1:8000/login/
     Enter your credentials and submit.
-
+```
 User Logout
-
+```
     Navigate to http://127.0.0.1:8000/logout/
-
+```
 Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
 License
 
-This project is licensed under the Creative Commons Zero Universal License, so edit and use to your heart's content! See the LICENSE file for details.
+This project is licensed under the Creative Commons Zero Universal License, so edit and use to your heart's content! See the ```LICENSE``` file for details.
