@@ -11,8 +11,8 @@ This is a simple Django application that provides basic user authentication feat
 
 ## Prerequisites
 
-- Python 3.x
-- Django 3.x or later
+- Python 3.6+
+- Django 4.2.13+
 
 ## Installation
 
