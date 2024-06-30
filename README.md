@@ -212,6 +212,3 @@ User Logout
 Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-License
-
-This project is licensed under the Creative Commons Zero Universal License, so edit and use to your heart's content! See the ```LICENSE``` file for details.
