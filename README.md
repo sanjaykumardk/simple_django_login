@@ -98,7 +98,7 @@ simple-django-login/
     ├── index.html
     ├── login.html
     └── signup.html
-
+```
 Configuration
 SECE/settings.py
 
